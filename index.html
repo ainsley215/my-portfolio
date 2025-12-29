@@ -34,6 +34,8 @@
     <div class="fixed inset-0 z-[9999] pointer-events-none opacity-[0.03] noise-bg"></div>
 
     <div id="spotlight" class="spotlight fixed inset-0"></div>
+    
+    <div id="scroll-progress" class="fixed top-0 left-0 h-1 bg-red-600 z-[100] transition-all duration-150"></div>
 
     <div class="max-w-screen-xl lg:ml-20 px-6 md:px-12 lg:px-24">
         <div class="lg:flex lg:justify-between lg:gap-4">
@@ -245,6 +247,14 @@
                     link.querySelector("span:last-child").classList.add("text-white");
                 }
             });
+        });
+
+        window.addEventListener('scroll', () => {
+            const scrollProgress = document.getElementById('scroll-progress');
+            const scrollTotal = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrollCurrent = window.scrollY;
+            const progressWidth = (scrollCurrent / scrollTotal) * 100;
+            scrollProgress.style.width = progressWidth + '%';
         });
     </script>
 </body>
