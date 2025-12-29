@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annisa Uswatul Khasanah | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&family=Space+Grotesk:wght@700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .spotlight {
+            fixed: top-0 left-0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            background: radial-gradient(600px at var(--x) var(--y), rgba(220, 38, 38, 0.15), transparent 80%);
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body class="bg-[#050505] text-slate-400 selection:bg-red-600 selection:text-white overflow-x-hidden">
+
+    <div class="javanese-watermark select-none">ꦄꦤ꧀ꦤꦶꦱ</div>
+
+    <div class="fixed inset-0 z-[9999] pointer-events-none opacity-[0.03] noise-bg"></div>
+
+    <div id="spotlight" class="spotlight fixed inset-0"></div>
+
+    <div class="max-w-screen-xl lg:ml-20 px-6 md:px-12 lg:px-24">
+        <div class="lg:flex lg:justify-between lg:gap-4">
+
+            <header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+                <div>
+                    <h1 class="text-4xl font-bold tracking-tight text-white sm:text-5xl">
+                        Annisa Uswatul Khasanah
+                    </h1>
+                    <h2 class="mt-3 text-lg font-medium text-red-500 tracking-wide">
+                        IT Student | Creative Developer
+                    </h2>
+
+                    <p class="mt-4 max-w-xs leading-normal italic text-slate-500">
+                        "I transform complex logic into elegant, user-centric digital art."
+                    </p>
+
+                    <nav class="mt-16 hidden lg:block">
+                        <ul class="w-max">
+                            <li class="group py-2">
+                                <a href="#about" class="flex items-center gap-2">
+                                    <span
+                                        class="h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-red-600"></span>
+                                    <span
+                                        class="text-xs font-bold uppercase tracking-widest group-hover:text-white">About</span>
+                                </a>
+                            </li>
+                            <li class="group py-2 text-slate-500"> <a href="#experience"
+                                    class="flex items-center gap-2">
+                                    <span
+                                        class="h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-red-600"></span>
+                                    <span
+                                        class="text-xs font-bold uppercase tracking-widest group-hover:text-white">Experience</span>
+                                </a>
+                            </li>
+                            <li class="group py-2">
+                                <a href="#projects" class="flex items-center gap-2">
+                                    <span
+                                        class="h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-red-600"></span>
+                                    <span
+                                        class="text-xs font-bold uppercase tracking-widest group-hover:text-white">Projects</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="mt-8 flex items-center gap-6">
+                    <a href="https://github.com/username-mu" target="_blank" rel="noreferrer"
+                        class="text-slate-400 hover:text-red-500 transition-all transform hover:scale-110"
+                        title="GitHub">
+                        <i data-lucide="github" class="w-6 h-6"></i>
+                        <span class="sr-only">GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/username-mu" target="_blank" rel="noreferrer"
+                        class="text-slate-400 hover:text-red-500 transition-all transform hover:scale-110"
+                        title="LinkedIn">
+                        <i data-lucide="linkedin" class="w-6 h-6"></i>
+                        <span class="sr-only">LinkedIn</span>
+                    </a>
+                    <a href="https://instagram.com/username-mu" target="_blank" rel="noreferrer"
+                        class="text-slate-400 hover:text-red-500 transition-all transform hover:scale-110"
+                        title="Instagram">
+                        <i data-lucide="instagram" class="w-6 h-6"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </div>
+            </header>
+
+            <main class="pt-24 lg:w-1/2 lg:py-24 relative z-20 flex flex-col gap-24">
+
+                <section id="about" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36">
+                    <div class="space-y-4">
+                        <p>
+                            I am an <span class="text-slate-200 font-medium">IT student</span> who bridges the gap
+                            between <span class="text-slate-200 font-medium">technical precision</span> and <span
+                                class="text-red-500 font-medium">creative expression</span>. My journey in tech is
+                            driven by the belief that code isn't just a set of instructions, but a canvas for digital
+                            art.
+                        </p>
+                        <p>
+                            Currently, I focus on building <span class="text-slate-200">accessible and high-performance
+                                applications</span>. I love exploring how complex logic can explode into beautiful,
+                            seamless user experiences—drawing inspiration from both modern tech and the deep philosophy
+                            of my roots.
+                        </p>
+                        <p>
+                            When I'm not debugging or tweaking pixels, I'm usually exploring the intersection of <span
+                                class="text-red-500">software engineering</span> and <span class="text-red-500">visual
+                                arts</span>, ensuring that every project I touch has both
+                            a solid structure and a captivating soul.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="experience" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36">
+                    <div class="space-y-12">
+                        <div
+                            class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                            <div
+                                class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition lg:-inset-x-6 lg:block lg:group-hover:bg-red-900/10">
+                            </div>
+
+                            <header
+                                class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
+                                2023 — Present
+                            </header>
+
+                            <div class="z-10 sm:col-span-6">
+                                <h4 class="font-medium leading-snug text-slate-200">
+                                    <div class="text-base font-semibold text-slate-200 group-hover:text-red-500">
+                                        Creative Developer · Freelance
+                                    </div>
+                                </h4>
+                                <p class="mt-2 text-sm leading-normal text-slate-400">
+                                    Menyusun antarmuka digital yang menggabungkan fungsionalitas koding dengan estetika
+                                    visual. Fokus pada pengembangan landing page yang responsif dan user-friendly.
+                                </p>
+                                <ul class="mt-2 flex flex-wrap gap-2">
+                                    <li class="rounded-full bg-red-400/10 px-3 py-1 text-xs font-medium text-red-500">
+                                        Tailwind CSS</li>
+                                    <li class="rounded-full bg-red-400/10 px-3 py-1 text-xs font-medium text-red-500">
+                                        JavaScript</li>
+                                    <li class="rounded-full bg-red-400/10 px-3 py-1 text-xs font-medium text-red-500">
+                                        Figma</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="projects" class="scroll-mt-16">
+                    <footer class="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
+                        <p>
+                            Built with <span class="text-slate-200">Tailwind CSS</span> and
+                            <span class="text-slate-200">Lucide Icons</span>. Designed in Figma and
+                            coded by <span class="text-red-500">Annisa Uswatul Khasanah</span>.
+                            Inspired by the fusion of <span class="italic">Modern Tech</span> and
+                            <span class="italic text-red-800">Javanese Roots</span>.
+                        </p>
+                    </footer>
+
+                    <div
+                        class="group relative mb-12 cursor-pointer transition-all p-4 rounded-xl hover:bg-red-900/10 hover:shadow-[inset_0_1px_0_0_rgba(220,38,38,0.1)]">
+                        <div class="relative z-10">
+                            <h4
+                                class="text-white font-semibold leading-tight group-hover:text-red-500 transition-colors flex items-center gap-2">
+                                Aplikasi Jurnal Seni
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                                    stroke="currentColor"
+                                    class="w-4 h-4 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
+                            </h4>
+                            <p class="mt-2 text-sm leading-normal">
+                                Aplikasi mobile berbasis Flutter untuk mencatat progres lukisan harian dengan integrasi
+                                cloud.
+                            </p>
+                            <ul class="mt-3 flex flex-wrap gap-2">
+                                <li
+                                    class="rounded-full bg-red-600/10 px-3 py-1 text-[10px] font-bold uppercase text-red-500 border border-red-600/20">
+                                    Flutter</li>
+                                <li
+                                    class="rounded-full bg-red-600/10 px-3 py-1 text-[10px] font-bold uppercase text-red-500 border border-red-600/20">
+                                    Firebase</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="h-[50vh]"></div>
+            </main>
+        </div>
+    </div>
+
+    <script>
+        // Inisialisasi Lucide Icons
+        lucide.createIcons();
+
+        // Script Spotlight yang tadi
+        const spotlight = document.getElementById('spotlight');
+        window.addEventListener('mousemove', e => {
+            spotlight.style.setProperty('--x', e.clientX + 'px');
+            spotlight.style.setProperty('--y', e.clientY + 'px');
+        });
+
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll("nav ul li a");
+
+        window.addEventListener("scroll", () => {
+            let current = "";
+            sections.forEach((section) => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - 100) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach((link) => {
+                link.querySelector("span:first-child").classList.remove("w-16", "bg-red-600");
+                link.querySelector("span:first-child").classList.add("w-8", "bg-slate-600");
+                link.querySelector("span:last-child").classList.remove("text-white");
+
+                if (link.getAttribute("href") === `#${current}`) {
+                    link.querySelector("span:first-child").classList.add("w-16", "bg-red-600");
+                    link.querySelector("span:first-child").classList.remove("w-8", "bg-slate-600");
+                    link.querySelector("span:last-child").classList.add("text-white");
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
